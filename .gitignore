@@ -1,0 +1,8 @@
+*.js
+*.map
+**/build/*
+.idea/*
+**/.idea/*
+**/node_modules/*
+.dist/*
+**/.dist/*
