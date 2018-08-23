@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    // 接受JavaScript做为输入
+    "allowJs": true,
+    "target": "es5",
+    "noImplicitReturns": true,
+    // 发现那些执行不到的代码
+    "allowUnreachableCode": false,
+    // 发现那些执行不到的标签
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
