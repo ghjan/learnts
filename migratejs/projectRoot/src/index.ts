@@ -1,5 +1,4 @@
-///<refrence path="plugin/nc/nc.d.ts">
-
+/// <reference> plugin/nc/nc.d.ts
 
 var nc_token = ["CF_APP_1", (new Date()).getTime(), Math.random()].join(':');
 var NC_Opt = {
