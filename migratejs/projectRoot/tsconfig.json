@@ -9,6 +9,7 @@
     "allowUnreachableCode": false,
     // 发现那些执行不到的标签
     "allowUnusedLabels": false,
+    "noImplicitAny": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": [
