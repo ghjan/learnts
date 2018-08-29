@@ -1,12 +1,27 @@
 class Control {
     private state: any;
+
+    dome(): number {
+        return 0
+    };
 }
 
 interface SelectableControl extends Control {
     select(): void;
 }
 
-class Button extends Control implements SelectableControl {
+interface SelectableControl1 extends Control {
+    selec1(): void;
+}
+
+class Button extends Control implements SelectableControl, SelectableControl1 {
+    dome(): number {
+        return 1
+    };
+
+    selec1(): void {
+    }
+
     select() {
     }
 }
